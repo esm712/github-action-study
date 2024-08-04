@@ -1,0 +1,14 @@
+name: helloGithubAction
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello world 출력
+      run: hello world
+    - name: 디렉토리 출력
+      run: ls -al
+    - name: python version 출력
+      run: python -V
